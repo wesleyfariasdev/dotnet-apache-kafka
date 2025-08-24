@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Producer.Api", "src\Kafka.Producer.Api\Kafka.Producer.Api.csproj", "{93A69AD8-F5FF-66AD-1F38-96881F8362A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Consumer.WorkerService", "src\Kafka.Consumer.WorkerService\Kafka.Consumer.WorkerService.csproj", "{3365DE58-C702-4472-AD79-DAFE7BE8CDF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,12 +18,17 @@ Global
 		{93A69AD8-F5FF-66AD-1F38-96881F8362A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93A69AD8-F5FF-66AD-1F38-96881F8362A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A69AD8-F5FF-66AD-1F38-96881F8362A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3365DE58-C702-4472-AD79-DAFE7BE8CDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3365DE58-C702-4472-AD79-DAFE7BE8CDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3365DE58-C702-4472-AD79-DAFE7BE8CDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3365DE58-C702-4472-AD79-DAFE7BE8CDF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{93A69AD8-F5FF-66AD-1F38-96881F8362A7} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{3365DE58-C702-4472-AD79-DAFE7BE8CDF0} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D37AF0FE-608D-494F-A02B-EBEAFB9D0A40}

@@ -1,6 +1,4 @@
-﻿using Confluent.Kafka;
-
-namespace Kafka.Consumer.WorkerService.Model;
+﻿namespace Kafka.Consumer.WorkerService.Model;
 
 internal sealed class ParameterModel(IConfiguration _configuration)
 {

@@ -1,6 +1,6 @@
 ﻿using Confluent.Kafka;
 
-namespace Kafka.Producer.Api.Services;
+namespace Biblioteca.Producer.Api.Services;
 
 public class ProducerServices
 {

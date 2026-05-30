@@ -1,4 +1,4 @@
-﻿namespace Kafka.Consumer.WorkerService.Model;
+﻿namespace Biblioteca.Consumer.WorkerService.Model;
 
 internal sealed class ParameterModel(IConfiguration _configuration)
 {

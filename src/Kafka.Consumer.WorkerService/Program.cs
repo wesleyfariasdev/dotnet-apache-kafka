@@ -1,5 +1,5 @@
+using Biblioteca.Consumer.WorkerService;
 using Confluent.Kafka;
-using Kafka.Consumer.WorkerService;
 
 var builder = Host.CreateApplicationBuilder(args);
 

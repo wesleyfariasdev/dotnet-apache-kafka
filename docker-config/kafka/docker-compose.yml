@@ -26,7 +26,7 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
 
   kafdrop:
-    image: obsidiandynamics/kafdrop:latest
+    image: obsidiandynamics/kafdrop:3.30.0
     networks:
       - broker-kafka
     depends_on:

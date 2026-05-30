@@ -20,10 +20,10 @@ docker-compose -f docker-config/kafka/docker-compose.yml up -d
 
 ## Aplicações .NET
 
-| Projeto                        | Tipo           | Framework  | Porta  | Descrição                                              |
-|-------------------------------|----------------|------------|--------|--------------------------------------------------------|
-| `Kafka.Producer.Api`          | Web API        | .NET 10    | —      | Expõe endpoint `POST /` que envia mensagem ao Kafka.   |
-| `Kafka.Consumer.WorkerService`| Worker Service | .NET 10    | —      | Consome mensagens do tópico Kafka em background.       |
+| Projeto                              | Tipo           | Framework  | Porta  | Descrição                                              |
+|-------------------------------------|----------------|------------|--------|--------------------------------------------------------|
+| `Biblioteca.Producer.Api`           | Web API        | .NET 10    | —      | Expõe endpoint `POST /` que envia mensagem ao Kafka.   |
+| `Biblioteca.Consumer.WorkerService` | Worker Service | .NET 10    | —      | Consome mensagens do tópico Kafka em background.       |
 
 Ambos utilizam o pacote **Confluent.Kafka 2.11.1**.
 
@@ -31,7 +31,7 @@ Ambos utilizam o pacote **Confluent.Kafka 2.11.1**.
 
 O tópico configurado é **`Livros`**, com `GroupId` **`Lib-1`** no Consumer. Ambas as aplicações apontam para `localhost:9092`.
 
-### Producer — `Kafka.Producer.Api`
+### Producer — `Biblioteca.Producer.Api`
 
 Web API Minimal com um único endpoint:
 
@@ -41,7 +41,7 @@ POST /?message={texto}
 
 Internamente usa `ProducerServices`, que cria um `IProducer<Null, string>` via `ProducerBuilder` e chama `ProduceAsync` no tópico configurado.
 
-### Consumer — `Kafka.Consumer.WorkerService`
+### Consumer — `Biblioteca.Consumer.WorkerService`
 
 Worker Service que sobe um `BackgroundService` (`Worker`). No `ExecuteAsync`:
 

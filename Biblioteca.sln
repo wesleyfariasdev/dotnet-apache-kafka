@@ -4,9 +4,9 @@ VisualStudioVersion = 18.6.11822.322 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca.Producer.Api", "src\Kafka.Producer.Api\Biblioteca.Producer.Api.csproj", "{93A69AD8-F5FF-66AD-1F38-96881F8362A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca.Producer.Api", "src\Biblioteca.Producer.Api\Biblioteca.Producer.Api.csproj", "{93A69AD8-F5FF-66AD-1F38-96881F8362A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca.Consumer.WorkerService", "src\Kafka.Consumer.WorkerService\Biblioteca.Consumer.WorkerService.csproj", "{3365DE58-C702-4472-AD79-DAFE7BE8CDF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca.Consumer.WorkerService", "src\Biblioteca.Consumer.WorkerService\Biblioteca.Consumer.WorkerService.csproj", "{3365DE58-C702-4472-AD79-DAFE7BE8CDF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca.Web", "src\Biblioteca.Web\Biblioteca.Web.csproj", "{5DEC0406-CC69-3556-B38C-C668E01BA6EA}"
 EndProject
